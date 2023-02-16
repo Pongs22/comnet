@@ -1,0 +1,180 @@
+@font-face {
+  font-family: Matteo;
+  src: url(../fonts/matteo/matteo-regular.eot);
+  src: url(../fonts/matteo/matteo-regular.eot?#iefix) format("embedded-opentype"), url(../fonts/matteo/matteo-regular.otf) format("opentype"), url(../fonts/matteo/matteo-regular.ttf) format("truetype"), url(../fonts/matteo/matteo-regular.woff) format("woff"), url(../fonts/matteo/matteo-regular.woff2) format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: Matteo;
+  src: url(../fonts/matteo/matteo-semibold.eot);
+  src: url(../fonts/matteo/matteo-semibold.eot?#iefix) format("embedded-opentype"), url(../fonts/matteo/matteo-semibold.otf) format("opentype"), url(../fonts/matteo/matteo-semibold.ttf) format("truetype"), url(../fonts/matteo/matteo-semibold.woff) format("woff"), url(../fonts/matteo/matteo-semibold.woff2) format("woff2");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: Graphik;
+  src: url(../fonts/graphik/graphik-regular.eot);
+  src: url(../fonts/graphik/graphik-regular.eot?#iefix) format("embedded-opentype"), url(../fonts/graphik/graphik-regular.otf) format("opentype"), url(../fonts/graphik/graphik-regular.ttf) format("truetype"), url(../fonts/graphik/graphik-regular.woff) format("woff"), url(../fonts/graphik/graphik-regular.woff2) format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: Graphik;
+  src: url(../fonts/graphik/graphik-medium.eot);
+  src: url(../fonts/graphik/graphik-medium.eot?#iefix) format("embedded-opentype"), url(../fonts/graphik/graphik-medium.otf) format("opentype"), url(../fonts/graphik/graphik-medium.ttf) format("truetype"), url(../fonts/graphik/graphik-medium.woff) format("woff"), url(../fonts/graphik/graphik-medium.woff2) format("woff2");
+  font-weight: 500;
+  font-style: normal;
+}
+html,
+body {
+  font-family: Graphik, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.25px;
+}
+
+h1 {
+  font-family: Matteo, sans-serif;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 50px;
+  letter-spacing: -2px;
+}
+
+h2 {
+  font-family: Matteo, sans-serif;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 40px;
+  letter-spacing: -1.5px;
+}
+
+h3 {
+  font-family: Matteo, sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 36px;
+  letter-spacing: -1px;
+}
+
+h6 {
+  font-family: Matteo, sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: -0.25px;
+}
+
+/*--My own Style-->*/
+body {
+  background-color: #ffffff;
+}
+
+.site-branding {
+  margin: 8px 0px;
+}
+
+.marg {
+  display: flex;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+#primary-menu {
+  text-align: center;
+}
+
+.main-navigation {
+  float: right;
+  display: flex;
+  justify-content: end;
+  margin: 8px 0px;
+}
+
+.menu-item {
+  display: inline-block;
+}
+
+.menu-item a {
+  color: black;
+  margin: 0px 16px;
+  padding: 12px 0px;
+  align-items: center;
+}
+
+#menu-item-58 a {
+  padding: 12px 20px;
+  color: white;
+  background-color: #d92e27;
+}
+
+@media only screen and (max-width: 600px) {
+  .marg {
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+}
+.sidenav {
+  height: 100%;
+  width: 0px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: white;
+  overflow-x: hidden;
+  margin-top: 32px;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+#main {
+  padding: 16px;
+}
+
+.margin-header-cart {
+  margin-right: 24px;
+  margin-left: 24px;
+}
+
+.cart-icon-header {
+  background-color: #d92e27;
+  box-shadow: 0px 6px 32px 0px rgba(0, 0, 0, 0.1);
+}
+
+#menu-solutions-footer,
+#menu-nav-footer,
+#menu-socials {
+  margin: 0px;
+  padding: 24px 0px;
+}
+#menu-solutions-footer li,
+#menu-nav-footer li,
+#menu-socials li {
+  display: block;
+}
+#menu-solutions-footer a,
+#menu-nav-footer a,
+#menu-socials a {
+  display: block;
+  text-decoration: none;
+  padding: 8px 0px;
+  margin: 0;
+  color: #98999b;
+}
+
+#menu-terms-and-policy-menu {
+  margin: 0px;
+  padding: 16px 0px;
+}
+#menu-terms-and-policy-menu a {
+  display: inline-block !important;
+  text-decoration: none;
+  padding: 0px 12px;
+  margin: 0;
+  color: #98999b;
+}/*# sourceMappingURL=main.css.map */

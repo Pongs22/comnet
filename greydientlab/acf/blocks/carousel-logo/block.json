@@ -1,0 +1,45 @@
+{
+  "name": "acf/carousel-logo",
+  "title": "Carousel Logo",
+  "description": "Carousel Logo block.",
+  "style": [ "file:./css/style.min.css" ],
+  "script": "carousel-logo",
+  "category": "formatting",
+  "supports": {
+    "align": true,
+    "anchor": true,
+    "alignContent": false,
+    "color": {
+      "text": true,
+      "background": true,
+      "link": true
+    },
+    "alignText": true,
+    "spacing": {
+      "margin": [
+        "top",
+        "bottom"
+      ],
+      "padding": true
+    },
+    "typography": {
+      "lineHeight": true,
+      "fontSize": true
+    },
+    "fullHeight": true
+  },
+  "attributes": {
+    "backgroundColor": {
+      "type": "string",
+      "default": "purple"
+    }
+  },
+  "icon": "welcome-widgets-menus",
+  "keywords": ["carousel", "logo"],
+  "acf": {
+    "mode": "edit",
+    "renderTemplate": "carousel-logo.php",
+    "supports": "jsx"
+  },
+  "align": "full"
+}

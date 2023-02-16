@@ -1,0 +1,83 @@
+@import "../../../resources/sass/mixin/mixins";
+@import "../../../resources/sass/variables/colors";
+
+.accordion-block {
+
+	.accordion-button:not(.collapsed) {
+		background-color: transparent;
+	}
+
+	.accordion-flush .accordion-item:last-child {
+		border-bottom: 1px solid transparent;
+		border-image: linear-gradient(269.59deg, $magenta -9.57%, #00c0cc 104.7%);
+		border-image-slice: 1;
+	}
+
+	.accordion-item {
+		border-bottom: 1px solid transparent;
+		border-image: linear-gradient(269.59deg, $magenta -9.57%, #00c0cc 104.7%);
+		border-image-slice: 1;
+		margin-top: 60px;
+
+		&:first-child {
+			margin-top: 0;
+		}
+	}
+
+	.accordion-button {
+		font-weight: 600;
+		font-size: 20px;
+		line-height: 32px;
+		letter-spacing: -0.25px;
+		text-transform: capitalize;
+		color: $pitch-blue !important;
+		padding-left: 0;
+		padding-right: 0;
+
+		&::after {
+			background-image: url(../img/mobile-arrow.svg);
+			background-position: center;
+		}
+
+		&:not(.collapsed)::after {
+			background-image: url(../img/mobile-arrow.svg);
+			background-position: center;
+		}
+	}
+
+	.accordion-body {
+		padding-left: 0;
+		padding-right: 0;
+
+		> * {
+			font-weight: 300;
+			font-size: 14px;
+			line-height: 24px;
+			color: $pitch-blue;
+		}
+
+		ol,
+		ul {
+			margin: 0;
+			padding-left: 20px;
+		}
+	}
+}
+
+@media screen and (max-width: 575px) {
+
+	.accordion-block {
+
+		> .container {
+			padding: 0;
+		}
+
+		.accordion-body {
+			padding: 2px 0 20px 0;
+		}
+
+		.accordion-button::after {
+			background-size: initial;
+		}
+	}
+}

@@ -1,0 +1,24 @@
+{
+  "name": "acf/accordion",
+  "title": "Accordion",
+  "description": "Accordion block.",
+  "style": [ "file:./css/style.min.css" ],
+  "script": "accordion",
+  "category": "formatting",
+  "icon": "welcome-widgets-menus",
+  "keywords": ["accordion", "faq"],
+  "acf": {
+    "mode": "edit",
+    "renderTemplate": "accordion.php",
+    "supports": "jsx"
+  },
+  "example": {
+    "attributes": {
+      "data": {
+        "label": "This is an example text field",
+        "content": "This is an example text area field"
+      }
+    }
+  },
+  "align": "full"
+}
